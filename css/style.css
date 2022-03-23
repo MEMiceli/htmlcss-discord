@@ -4,3 +4,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* common */
+.main-container{
+    max-width: 1200px;
+    background-color: rgb(0, 255, 98);
+    margin:auto;
+
+}
+.button{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+.button, a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+
+/* header */
+.box{
+    height: 60px;
+}
+.main-nav{
+    display: inline;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(164, 164, 204);
+}
+li {
+    display: inline;
+    border-width: 20px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 10px;
+}
+.box .button{
+    float: right;
+    right: 0;
+    bottom:0;
+}
+.logo{
+}
